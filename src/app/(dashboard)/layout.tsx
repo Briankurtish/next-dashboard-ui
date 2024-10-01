@@ -1,5 +1,5 @@
 import Menu from "@/components/Menu";
-import NavBar from "@/components/NavBar";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,7 +24,7 @@ export default function DashboardLayout({
 
       {/* RIGHT */}
       <div className="w-[86%] md:w-[92%] lg:w-[84%] xlg:w-[84%] bg-[#F7F8FA] overflow-scroll">
-        <NavBar />
+        <Navbar />
         {children}
       </div>
     </div>
